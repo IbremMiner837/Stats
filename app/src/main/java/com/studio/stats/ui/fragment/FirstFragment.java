@@ -1,4 +1,4 @@
-package com.studio.stats;
+package com.studio.stats.ui.fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,6 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
+import com.studio.stats.R;
 import com.studio.stats.databinding.FragmentFirstBinding;
 
 public class FirstFragment extends Fragment {

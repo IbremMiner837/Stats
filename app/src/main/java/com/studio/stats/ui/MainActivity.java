@@ -1,4 +1,4 @@
-  package com.studio.stats;
+  package com.studio.stats.ui;
 
 import android.os.Bundle;
 
@@ -14,6 +14,7 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
+import com.studio.stats.R;
 import com.studio.stats.databinding.ActivityMainBinding;
 
 import android.view.Menu;

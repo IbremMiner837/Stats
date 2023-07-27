@@ -20,6 +20,7 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = false
+
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
@@ -40,8 +41,8 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.9.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
-    implementation("androidx.navigation:navigation-fragment:2.6.0")
-    implementation("androidx.navigation:navigation-ui:2.6.0")
+    implementation("androidx.navigation:navigation-fragment:2.5.2")
+    implementation("androidx.navigation:navigation-ui:2.5.2")
     implementation("com.google.firebase:firebase-analytics:21.3.0")
     implementation("com.google.firebase:firebase-firestore:24.7.0")
     implementation("com.google.firebase:firebase-messaging:23.2.0")

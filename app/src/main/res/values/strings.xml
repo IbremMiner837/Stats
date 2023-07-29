@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">Stats</string>
     <string name="action_settings">Settings</string>
-    <!-- Strings used for fragments for navigation -->
+
     <string name="first_fragment_label">Главное</string>
     <string name="second_fragment_label">Анкета</string>
     <string name="next">Продолжить</string>
-    <string name="previous">Previous</string>
+    <string name="previous">Назад</string>
     <string name="submit">Отправить</string>
     <string name="submitting">Отправка...</string>
     <string name="submit_success">Отправлено!</string>
@@ -28,7 +28,7 @@
         \n- Ваше местоположение (страна, город)
         \n- Ваше устройство (модель, версия Android)
         \n- Ваше время использования приложения
-        \n\n Все данные, которые мы собираем, анонимны и не могут быть использованы для идентификации личности.
+        \n\nВсе данные, которые мы собираем, анонимны и не могут быть использованы для идентификации личности.
         Они используются только для статистических целей и не будут переданы третьим лицам. Не собирается никакая
         другая информация, кроме той, что указана выше. Если вы не согласны с этими условиями, пожалуйста, не
         используйте наше приложение. Если вы согласны, нажмите кнопку ниже, чтобы продолжить.

@@ -19,24 +19,21 @@ public class FirstFragment extends Fragment {
     @Override
     public View onCreateView(
             LayoutInflater inflater, ViewGroup container,
-            Bundle savedInstanceState
-    ) {
-
+            Bundle savedInstanceState) {
         binding = FragmentFirstBinding.inflate(inflater, container, false);
-        return binding.getRoot();
 
+        StringBuilder builder = new StringBuilder();
+        builder.append(String.format(getString(R.string.welcome_message), getString(R.string.app_name)));
+        binding.textviewFirst.setText(builder);
+
+        return binding.getRoot();
     }
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.buttonFirst.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NavHostFragment.findNavController(FirstFragment.this)
-                        .navigate(R.id.action_FirstFragment_to_SecondFragment);
-            }
-        });
+        binding.buttonFirst.setOnClickListener(view1 -> NavHostFragment.findNavController(FirstFragment.this)
+                .navigate(R.id.action_FirstFragment_to_SecondFragment));
     }
 
     @Override
